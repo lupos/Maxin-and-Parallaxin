@@ -1,0 +1,38 @@
+#debug{
+	position:absolute;
+	top:0;
+	left:0;
+	width:400px;
+	min-height:400px;
+	height:auto;
+	border:1px solid black;
+	z-index:900000;
+}
+#pContainer{
+	position:relative;
+	overflow:hidden;
+}
+.layer{
+	/*layout*/
+	display:block;
+	height:1200px;
+	width:1600px;
+	/*position*/
+	position:absolute;
+	top:20px;
+	left:20px;
+	/*style*/
+	background-repeat:no-repeat;
+}
+#sheep{
+	background-image:url('../img/sheep.png');
+}
+#trees{
+	background-image:url('../img/trees.png');
+}
+#mountains{
+	background-image:url('../img/mountains.png');
+}
+#clouds{
+	background-image:url('../img/clouds.png');
+}
